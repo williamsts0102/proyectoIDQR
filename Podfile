@@ -7,7 +7,8 @@ target 'proyectoIDQR' do
 
   # Pods for proyectoIDQR
 pod 'DropDown'
+pod 'EFQRCode'
+pod 'LBXScan'
 pod 'Toaster'
 pod 'Alamofire'
-
 end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75E236C2B09EB7200141B39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E236B2B09EB7200141B39 /* LoginViewController.swift */; };
+		B75E236F2B09EFB700141B39 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E236E2B09EFB700141B39 /* User.swift */; };
 		B78A72002B07232900F03F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A71FF2B07232900F03F9B /* AppDelegate.swift */; };
 		B78A72022B07232900F03F9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A72012B07232900F03F9B /* SceneDelegate.swift */; };
 		B78A72042B07232900F03F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A72032B07232900F03F9B /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 		711AF6C16EAE4639FC41A4CB /* Pods-proyectoIDQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyectoIDQR.debug.xcconfig"; path = "Target Support Files/Pods-proyectoIDQR/Pods-proyectoIDQR.debug.xcconfig"; sourceTree = "<group>"; };
 		94FC07D8ACAEF013B86FFBF2 /* Pods-proyectoIDQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyectoIDQR.release.xcconfig"; path = "Target Support Files/Pods-proyectoIDQR/Pods-proyectoIDQR.release.xcconfig"; sourceTree = "<group>"; };
 		9812F2495BB7FF7CBC9A9DB6 /* Pods_proyectoIDQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proyectoIDQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75E236B2B09EB7200141B39 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B75E236E2B09EFB700141B39 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B78A71FC2B07232900F03F9B /* proyectoIDQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyectoIDQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78A71FF2B07232900F03F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78A72012B07232900F03F9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,9 +56,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B75E236A2B09EB5800141B39 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B75E236B2B09EB7200141B39 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B75E236D2B09EF0E00141B39 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				B75E236E2B09EFB700141B39 /* User.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
 		B78A71F32B07232900F03F9B = {
 			isa = PBXGroup;
 			children = (
+				B75E236D2B09EF0E00141B39 /* Struct */,
+				B75E236A2B09EB5800141B39 /* Login */,
 				B78A71FE2B07232900F03F9B /* proyectoIDQR */,
 				B78A71FD2B07232900F03F9B /* Products */,
 				ED3FC5796A3274361BD6BE72 /* Pods */,
@@ -91,7 +113,6 @@
 				711AF6C16EAE4639FC41A4CB /* Pods-proyectoIDQR.debug.xcconfig */,
 				94FC07D8ACAEF013B86FFBF2 /* Pods-proyectoIDQR.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,7 +233,9 @@
 			files = (
 				B78A72042B07232900F03F9B /* ViewController.swift in Sources */,
 				B78A72002B07232900F03F9B /* AppDelegate.swift in Sources */,
+				B75E236F2B09EFB700141B39 /* User.swift in Sources */,
 				B78A720A2B07232900F03F9B /* proyectoIDQR.xcdatamodeld in Sources */,
+				B75E236C2B09EB7200141B39 /* LoginViewController.swift in Sources */,
 				B78A72022B07232900F03F9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
