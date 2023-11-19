@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-proyectoIDQR/Pods-proyectoIDQR-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework

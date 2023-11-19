@@ -1,0 +1,6 @@
+framework module Pods_proyectoIDQR {
+  umbrella header "Pods-proyectoIDQR-umbrella.h"
+
+  export *
+  module * { export * }
+}
